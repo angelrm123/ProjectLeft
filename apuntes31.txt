@@ -1,0 +1,9 @@
+Pra crear una tabla en phpmyadmin
+
+-CREATE TABLE IF NOT EXISTS mi_tabla (
+id int primary key auto_increment, 
+ nombre varchar(255), 
+apellido_paterno varchar (255),
+apellido_materno varchar (255)
+
+);

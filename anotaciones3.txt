@@ -1,0 +1,6 @@
+for(int i= 0; i < 100; i++){
+}
+
+For--> N especifico de veces 
+While ---> N desconocido de veces
+do while ---> Se ejecuta una vez
