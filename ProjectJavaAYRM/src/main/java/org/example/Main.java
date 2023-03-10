@@ -76,39 +76,99 @@ for(int i=0; i<10; i++){
             }
         }*/
 
-// Doublee
+// Desarrollar un programa que lea 10 numeros y los sume todos que los multiplique *2
 
-        //miArrayDouble[] = new double[7];
+        /*Scanner miscaner = new Scanner(System.in);
+
+        int suma;
+        int multi;
+         int numero1;
+        System.out.println("Ingresa el primer numero:");
+        numero1 = miscaner.nextInt();
+
+        int numero2;
+        System.out.println("Ingresa el primer numero:");
+        numero2 = miscaner.nextInt();
+
+        int numero3;
+        System.out.println("Ingresa el primer numero:");
+        numero3 = miscaner.nextInt();
+
+        int numero4;
+        System.out.println("Ingresa el primer numero:");
+        numero4 = miscaner.nextInt();
+
+        int numero5;
+        System.out.println("Ingresa el primer numero:");
+        numero5 = miscaner.nextInt();
+
+        int numero6;
+        System.out.println("Ingresa el primer numero:");
+        numero6 = miscaner.nextInt();
+
+        int numero7;
+        System.out.println("Ingresa el primer numero:");
+        numero7 = miscaner.nextInt();
+
+        int numero8;
+        System.out.println("Ingresa el primer numero:");
+        numero8 = miscaner.nextInt();
+
+        int numero9;
+        System.out.println("Ingresa el primer numero:");
+        numero9 = miscaner.nextInt();
+
+        int numero10;
+        System.out.println("Ingresa el primer numero:");
+        numero10 = miscaner.nextInt();
+
+        suma = numero1 + numero2 + numero3 + numero4 + numero5 + numero6 + numero7 + numero8 + numero9 + numero10;
+        multi = suma *2;
+
+        System.out.println("El resultado es: " + multi);*/
+
+       /*  Scanner scaner = new Scanner(System.in);
+        int arreglo_num[] = new int[10];
+        int suma = 0;
+        for(int i=0; i<10; i++) {
+            System.out.println("Ingresa el numero " + (i + 1));
+            arreglo_num[i] = scaner.nextInt();
+            suma = suma + arreglo_num[i];
+        }
+        suma = suma*2;
+        System.out.println("El resultado es: " + suma);*/
+
+        //El usuario va a ingresar un numero, mostrar si el numero es mayor igual a 18 y si no marcar error el programa
+        //se va a repitir 5 veces
 
 
+        Scanner scaner = new Scanner(System.in);
+        int numero;
 
+        System.out.println("Ingresa el numero: ");
+        numero = scaner.nextInt();
 
+        if(numero >= 18){
+            System.out.println("Es mayor de 18");
+        }else{
+            System.out.println("Error en el programa.");
+        }
 
+        for(int i =0; i<5; i++){
+            System.out.println("Ingresa el numero: ");
+            numero = scaner.nextInt();
 
+            if(numero >= 18){
+                System.out.println("Es mayor de 18");
+            }else{
+                System.out.println("Error en el programa.");
+            }
+        }
 
+        for(int i =0; i<100; i++){
+            System.out.println("Angel" );
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-                      
-
-
-
-
-
-
-
-
+        }
     }
 
 }
