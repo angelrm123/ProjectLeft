@@ -1,1 +1,2 @@
 
+es un comando que se utiliza para interactuar con los repositorios remotos que se encuentran en la plataforma de GitHub. Por tanto, en este post, te contaremos qué es git pull y cómo funciona en el proceso para la sincronización de repositorios.
